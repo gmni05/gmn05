@@ -1,0 +1,42 @@
+#EXT-X-REFRESH:3600
+#EXTVLCOPT:http-reconnect=true
+
+#EXTINF:-1 tvg-id="" tvg-url="" tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP A",Indosiar m3u8
+https://playlist.xtv.biz.id/131d54524609ef90020b38277363524b.m3u8
+#EXTINF:-1 tvg-id="" tvg-url="" tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP A", CHANEL TS
+https://playlist.xtv.biz.id/c5974ec7667a13684c4a4107cd30e03c.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP A",SCTV 1
+https://playlist.xtv.biz.id/93ded35a4ed572efb18f199e9fd459fe.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP A", TRANS7 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://playlist.xtv.biz.id/43a2045b762fdb3fb8079ead80e000eb.m3u8
+#EXTINF:-1 tvg-id="" group-title="GROUP A" tvg-url="" tvg-logo="https://i.imgur.com/amVI9Dg.png",MDTV (DensTV) 🇮🇩
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:http-referrer=http://dens.tv
+https://playlist.xtv.biz.id/e92e668db8130b6bc42c5f0696865480.m3u8
+---------------------------------------------------------
+#EXTINF:-1 group-title="GROUP B" tvg-id="" tvg-logo="https://i.imgur.com/amVI9Dg.png",Madinah TV
+#EXTVLCOPT:http-user-agent=YouTV (Linux; Android 15) Media3/1.6.0
+#EXTVLCOPT:http-referrer=https://youtv.id/
+https://playlist.xtv.biz.id/83a3c21fc9777333308fb0ddbf69411e
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP B" ,|TR| beIN Sports 1 HDhttps://playlist.xtv.biz.id/fffe490820ba84dc96b121a5990f9fee
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
+#EXTINF:-1 tvg-id=""tvg-url="" tvg-logo="https://i.imgur.com/amVI9Dg.png" group-title="GROUP B",ANTV 1
+https://playlist.xtv.biz.id/55be990e180df5bd713afe455a5dbec5.mpd
+#EXTINF:-1 group-title="GROUP B" tvg-id="" tvg-logo="https://i.imgur.com/amVI9Dg.png",BBC Earth
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5709bc59805c4f23b000306efea48438:1772cf06c2f5dd3980a3245cd31fd356
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
+#EXTVLCOPT:http-referrer=https://visionplus.id/
+https://playlist.xtv.biz.id/9426885dce56e319a19363d7a94cc58b.mpd
+#EXTM3U billed-msg="🔴 MODE DEBUG  🔴     |     🟢 LAGI MAINTENANCE 🟢     |"
+
+C:\Users\user>
