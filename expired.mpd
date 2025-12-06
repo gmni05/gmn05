@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011"
+     minBufferTime="PT1.5S"
+     type="static"
+     profiles="urn:mpeg:dash:profile:isoff-main:2011"
+     mediaPresentationDuration="PT60S">
+
+  <Period id="1" start="PT0S">
+    <AdaptationSet id="1"
+                   mimeType="video/mp2t"
+                   startWithSAP="1"
+                   segmentAlignment="true">
+      <Representation id="1"
+                      bandwidth="800000"
+                      codecs="avc1.4d401f">
+        <SegmentList duration="60000">
+          <!-- Segmen tunggal: file TS kamu -->
+          <SegmentURL media="https://raw.githubusercontent.com/gmni05/gmn05/main/expired.ts"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+
+</MPD>
